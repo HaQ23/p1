@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RafBud</title>
+		<meta name="description" content="Strona firmy budowlanej, pomożemy ci zbudować, naprawić, wyremontować twoje mieszkanie, budynek firmowy lub co kolwiek chcesz">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./dist/css/pages/home.min.css" />
+	</head>
+	<body>
+		<nav class="nav active">
+			<div class="wrapper">
+				<a href="./index.html" class="nav__firm-logo" aria-label="link do strony głównej"
+					><img src="./dist/assets/images/logo.webp" alt="" class="icon"
+				/></a>
+				<button class="ham-btn" aria-label="otwórz menu">
+					<div class="ham-btn__box">
+						<span class="ham-btn__inner"></span>
+					</div>
+				</button>
+				<div class="menu menu-mobile">
+					<div class="menu__items">
+						<a href="#home" class="menu__item active-link">Home</a>
+						<a href="#aboutUs" class="menu__item">O nas</a>
+						<a href="#services" class="menu__item">Usługi</a>
+						<a href="#projects" class="menu__item">Projekty</a>	
+						<a href="#contact" class="menu__item special-link">Kontakt</a>
+					</div>
+				</div>
+				<div class="menu menu-desktop">
+					<div class="menu__items">
+						<a href="#home" class="menu__item active-link">Home</a>
+						<a href="#aboutUs" class="menu__item">O nas</a>
+						<a href="#services" class="menu__item">Usługi</a>
+						<a href="#projects" class="menu__item">Projekty</a>	
+						<a href="#contact" class="menu__item ">Kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<header class="header" id="home">
+			<div class="header__shadow"></div>
+			<div class="wrapper">
+				<div class="header__text-box">
+				<h1 class="title">Budowanie jest naszą misją.</h1>
+				<p class="header__text">Zaufaj profesionalistom, którzy od kilkunastu lat doskonale znają się na swoim fachu.</p>
+				</div>
+				
+			</div>
+		</header>
+		<main class="main">
+			<div class="wrapper">
+				<section class="ourReputation">
+					<h2 class="section-title">Nasze zalety</h2>
+					<div class="ourReputation__items">
+					<div class="ourReputation__item">
+							<img
+								src="./dist/assets/icons/headphones.webp"
+								alt=""
+								class="icon"
+							/>
+							<h3 class="sub-section-title">Najlepsze usługi</h3>
+							<p class="sub-section-text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="ourReputation__item">
+							<img src="./dist/assets/icons/group.webp" alt="" class="icon" />
+							<h3 class="sub-section-title">Najlepsze zespoły</h3>
+							<p class="sub-section-text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="ourReputation__item">
+							<img src="./dist/assets/icons/design.webp" alt="" class="icon" />
+							<h3 class="sub-section-title">Najlepsze projekty</h3>
+							<p class="sub-section-text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<section class="about-us" id="aboutUs">
+				<div class="wrapper">
+					<div class="about-us__text-container">
+						<h2 class="section-title">O nas</h2>
+						<p class="section-text">
+							Od ponad 30 lat dostarczamy światowej klasy konstrukcje i zbudowaliśmy po drodze wiele trwałych relacji.
+						</p>
+						<p class="section-text">
+							Staliśmy się liderem w branży i zaufanym zasobem dla osób poszukujących jakości, innowacji i niezawodności podczas budowania w USA
+						</p>
+						<button class="show-btn">Więcej o naszej historii</button>
+					</div>
+					<img
+						src="./dist/assets/images/boss-small.webp"
+						alt="na tym obrazku widzimy szefa naszej firmy Pana ..."
+						class="about-us__img img-mobile"
+					/>
+					<img
+						src="./dist/assets/images/boss-big.webp"
+						alt="na tym obrazku widzimy szefa naszej firmy Pana ..."
+						class="about-us__img img-desktop"
+					/>
+				</div>
+			</section>
+			<section class="services" id="services">
+				<h2 class="section-title">Usługi</h2>
+				<div class="wrapper">
+					<div class="services__items">
+						<div class="services__item">
+							<div class="box">
+								<img src="./dist/assets/icons/building.svg" alt="" class="icon" />
+								<span class="square"></span>
+							</div>
+							<span class="line"></span>
+							<p class="sub-section-title">Budownictwo</p>
+						</div>
+						<div class="services__item services__item--special">
+							<div class="box">
+								<img src="./dist/assets/icons/paint.svg" alt="" class="icon" />
+								<span class="square"></span>
+							</div>
+							<span class="line"></span>
+							<p class="sub-section-title">Renowacja</p>
+						</div>
+						<div class="services__item services__item--special">
+							<div class="box">
+								<img
+									src="./dist/assets/icons/brand-hipchat.svg"
+									alt=""
+									class="icon"
+								/>
+								<span class="square"></span>
+							</div>
+							<span class="line"></span>
+							<p class="sub-section-title">Konsultacje</p>
+						</div>
+						<div class="services__item">
+							<div class="box">
+								<img
+									src="./dist/assets/icons/briefcase.svg"
+									alt=""
+									class="icon"
+								/>
+								<span class="square"></span>
+							</div>
+							<span class="line"></span>
+							<p class="sub-section-title">Naprawy</p>
+						</div>
+						<div class="services__item">
+							<div class="box">
+								<img src="./dist/assets/icons/geometry.svg" alt="" class="icon" />
+								<span class="square"></span>
+							</div>
+							<span class="line"></span>
+							<p class="sub-section-title">Architektowanie</p>
+						</div>
+						<div class="services__item services__item--special">
+							<div class="box">
+								<img
+									src="./dist/assets/icons/plug-connected.svg"
+									alt=""
+									class="icon"
+								/>
+								<span class="square"></span>
+							</div>
+							<span class="line"></span>
+							<p class="sub-section-title">Elektryka</p>
+						</div>
+					</div>
+				</section>
+				<section class="experience">
+					<div class="wrapper">
+						<div class="experience__text-box">
+							<h2 class="section-title">30 Lat Doświadczenia</h2>
+							<p class="section-text">
+								Nasza firma od 1988 roku jest wiodącą firmą świadczącą usługi budowlane dla klientów na terenie całych Stanów Zjednoczonych.
+							</p>
+							<button class="experience__btn">Skontaktuj się</button>
+						</div>
+						<div class="experience__items">
+							<div class="experience__item">
+								<img src="./dist/assets/icons/agree.webp" alt="" class="icon" />
+								<span class="number">84</span>
+								<p class="sub-section-title">Szczęsliwych klientów</p>
+							</div>
+							<div class="experience__item">
+								<img
+									src="./dist/assets/icons/agreement.webp "
+									alt=""
+									class="icon"
+								/>
+								<span class="number">123</span>
+								<p class="sub-section-title">Ukończonych projektów</p>
+							</div>
+							<div class="experience__item">
+								<img src="./dist/assets/icons/trophy.webp" alt="" class="icon" />
+								<span class="number">37</span>
+								<p class="sub-section-title">Wygranych nagród</p>
+							</div>
+							<div class="experience__item">
+								<img
+									src="./dist/assets/icons/blueprint.webp"
+									alt=""
+									class="icon"
+								/>
+								<span class="number">30</span>
+								<p class="sub-section-title">Lat w biznesie</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="encourage-consultation">
+					<div class="bg-shadow"></div>
+					<div class="wrapper">
+						<div class="text-box">
+							<h2 class="section-title">
+								Bezpłatna konsultacja z naszym fachowcem
+							</h2>
+							<p class="section-text">
+								Wystarczy zadzwonić na:
+								<a class="link" href="tel:++84 1102 2703">+84 1102 2703</a>
+							</p>
+						</div>
+						<button class="encourage-consultation__btn">
+							Uzyskaj konsultacje
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="projects" id="projects">
+				<h2 class="section-title">Projekty</h2>
+				<div class="wrapper">
+					<div class="projects__categories">
+						<button class="projects__category-btn active">Wszystkie</button>
+						<button class="projects__category-btn">Komercyjne</button>
+						<button class="projects__category-btn">Mieszkaniowe</button>
+						<button class="projects__category-btn">Inne</button>
+					</div>
+					<div class="projects__carousel">
+						<div class="projects__items"></div>
+						<div class="projects__carousel-options">
+							<button class="prev">
+								<img
+									src="./dist/assets/icons/arrow-prev.svg"
+									alt=""
+									class="icon"
+								/>
+								Poprzednie
+							</button>
+							<div class="dots">
+								
+							</div>
+							<button class="next">
+								Następne
+								<img
+									src="./dist/assets/icons/arrow-next.svg"
+									alt=""
+									class="icon"
+								/>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact" id="contact">
+				<div class="wrapper">
+					<h2 class="section-title">Co możemy zrobić dla ciebie?</h2>
+					<p class="section-text">
+						Jesteśmy gotowi do pracy nad projektem o dowolnej złożoności, zarówno komercyjnym, jak i mieszkaniowym.
+					</p>
+					<form action="" class="contact__form " id="contact-form">
+						<p class="success-text form-info">Wiadomość została wysłana</p>
+						<label for="" class="form-text">
+							<span class="name-inp important">Imie</span>
+							<input  name="fromName" type="text" class="input-text important-inp" id="inp-name" />
+							<span  class="error-text">Uzupełnij pole</span>
+						</label>
+						<label for="" class="form-text">
+							<span class="name-inp important">Nazwisko</span>
+							<input  name="fromSurName" type="text" class="input-text important-inp" id="inp-surName"/>
+							<span  class="error-text">Uzupełnij pole</span>
+						</label>
+						<label for="" class="form-text">
+							<span class="name-inp important">Powód kontaktu</span>
+							<input  name="reason"type="text" class="input-text important-inp" id="inp-reason" />
+							<span  class="error-text">Uzupełnij pole</span>
+						</label>
+						<label for="" class="form-text">
+							<span class="name-inp">Telefon </span>
+							<input  name="phone"type="text" class="input-text" id="inp-phone"/>
+						</label>
+						<label for="" class="form-text taxtarea-label ">
+							<span class="name-inp important">Wiadomość </span>
+							<textarea name="message" class="textarea important-inp"id="inp-message"></textarea>
+							<span  class="error-text">Uzupełnij pole</span>
+						</label>
+						<p class="form-info">wskazuje wymagane pole</p>
+						<fieldset class="submit-box">
+							<input  class="submit" type="submit" value="Wyślij" />
+						</fieldset>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="footer__items">
+					<div class="footer__item-box">
+						<div class="footer__item">
+							<p class="footer-text">
+								<span class="name"> Adres: </span>Warszawa Wilanowska 65
+							</p>
+						</div>
+						<div class="footer__item">
+							<p class="footer-text">
+								<span class="name"> Phone: </span>666777888
+							</p>
+						</div>
+						<div class="footer__item">
+							<p class="footer-text">
+								<span class="name"> Email: </span>raflbud@theboss.com
+							</p>
+						</div>
+						<div class="footer__item">
+							<img src="./dist/assets/images/logo.webp" alt="" class="logo" />
+						</div>
+					</div>
+					<div class="footer__item-box">
+						<div class="footer__item">
+							<form action=""class="newsletter-form" id="newsletter-form">
+								<label class="name  form-text " for="email">
+									<span class="name-inp">Newsletter</span>
+									<span class="success-text">Zapisałeś się do Newslettera</span>
+								<input
+									type="text"
+									placeholder="Podaj email"
+									class="newsletter input-text important-inp"
+									name="email"
+								/>
+								<input class="subscribe submit" type="submit" value="Wyślij" />
+								<span class="error-text">Uzupełnij pole</span>
+							</label>
+							</form>
+								
+						</div>
+						<div class="footer__social-media">
+							<a href="#" class="social-media-item" aria-label="link do facebooka firmy"
+								><img
+									src="./dist/assets/icons/facebook.webp"
+									alt=""
+									class="icon"
+							/></a>
+							<a href="#" class="social-media-item"
+							aria-label="link do linkedina firmy"
+								><img
+									src="./dist/assets/icons/linkedin.webp"
+									alt=""
+									class="icon"
+							/></a>
+							<a href="#" class="social-media-item"
+							aria-label="link do twittera firmy"
+								><img
+									src="./dist/assets/icons/twitter.webp"
+									alt=""
+									class="icon"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__rigths">
+				<div class="wrapper">
+					<p class="rigths-text">
+						TheBox Company &copy; 2022. All Rights Reserved
+					</p>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script src="./dist/js/products.min.js"></script>
+		<script src="./dist/js/carousel.min.js"></script>
+		<script src="./dist/js/main.min.js"></script>
+	</body>
+</html>

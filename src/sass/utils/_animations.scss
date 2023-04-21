@@ -1,0 +1,24 @@
+@keyframes menuItemAnim {
+	from {
+		transform: translateX(-5000px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+@keyframes carouselAnimNext {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+@keyframes carouselAnimPrev {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}

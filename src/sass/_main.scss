@@ -1,0 +1,74 @@
+@use "./utils/variables" as *;
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	display: unset;
+	font-family: "Open Sans", sans-serif;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 92%;
+	max-width: 1300px;
+}
+.section-title {
+	position: relative;
+	font-size: var(--section-title-text);
+	color: $neutral-800;
+	font-weight: 700;
+	text-align: center;
+	z-index: 1;
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 6rem;
+		height: 15px;
+		background-color: #bac8f4;
+		z-index: -1;
+	}
+}
+.sub-section-title {
+	font-size: var(--subSection-title-text);
+	color: $neutral-700;
+}
+.sub-section-text {
+	font-size: var(--paragraph-text-small);
+	color: $neutral-400;
+}
+.section-text {
+	font-size: var(--paragraph-text-small);
+	color: $white;
+	max-width: 500px;
+}
+.input-text {
+	padding: 1rem;
+	border: 1px solid $neutral-400;
+	transition: border 0.3;
+	font-size: var(--input-text);
+}
+.input-text:focus {
+	outline-color: $primary-color;
+}
+.error-text {
+	display: none;
+	margin-top: 0.25rem;
+	color: $warning;
+	font-size: var(--form-info);
+	font-weight: normal;
+}

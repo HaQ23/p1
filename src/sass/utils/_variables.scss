@@ -1,0 +1,41 @@
+//colors
+$primary-color: #2947a9;
+$secondary-color: #ed7328;
+$dark-blue: #0b267d;
+$blue: #7595fd;
+$neutral-900: #14171f;
+$neutral-800: #292e3d;
+$neutral-700: #14171f;
+$neutral-600: #525b7a;
+$neutral-400: #858ead;
+$neutral-200: #c2c7d6;
+$neutral-50: #f6f8f7;
+$white: #fff;
+$black: #000;
+$light-gray: #e0e3eb;
+$gray-bg: #f6f8f7;
+$warning: #e50808;
+$success: rgb(12, 165, 12);
+//text
+:root {
+	--header-text: 2rem;
+	--paragraph-text-normal: 1.8rem;
+	--paragraph-text-small: 1.6rem;
+	--section-title-text: 2.8rem;
+	--subSection-title-text: 2rem;
+	--button-text: 1.6rem;
+	--form-text: 1.4rem;
+	--input-text: 1.6rem;
+	--form-info: 1.2rem;
+}
+
+@media (min-width: 992px) {
+	:root {
+		--section-title-text: 4rem;
+		--form-text: 1.6rem;
+		--input-text: 1.6rem;
+		--button-text: 1.6rem;
+		--paragraph-text-small: 1.8rem;
+		--form-info: 1.5rem;
+	}
+}
